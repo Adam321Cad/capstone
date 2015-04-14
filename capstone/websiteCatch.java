@@ -9,10 +9,22 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 public class websiteCatch{
+    private String html = "";
+    private String bdex = "<span id=\"yfs_l84_goog\">";
+    private String adex = "</span></span> <span class=";
     public websiteCatch(String urlName){
+        html = this.getHtml(urlName);
+    }
+    
+    public void main(){
+        int start = html.indexOf(bdex)+bdex.length();
+        int end = html.indexOf(adex);
+        String test = html.substring(start,end);
+        System.out.println(test);
+    }
+    
+    public String getHtml(String urlName){
         String html = "";
-        String bdex = "<span id=\"yfs_l84_goog\">";
-        String adex = "</span></span>";
         try{
             URL url = new URL(urlName);
             URLConnection con = url.openConnection();
@@ -26,9 +38,8 @@ public class websiteCatch{
         }catch(Exception e){
             System.out.println("welp");
         }
-        int start = html.indexOf(bdex);
-        int end = html.indexOf(adex);
-        String test = html.substring(start,end);
-        System.out.println(test);
+        return html;
     }
+        
+    
 }
