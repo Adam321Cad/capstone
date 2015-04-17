@@ -12,15 +12,20 @@ public class websiteCatch{
     private String html = "";
     private String bdex = "<span id=\"yfs_l84_goog\">";
     private String adex = "</span></span> <span class=";
-    public websiteCatch(String urlName){
-        html = this.getHtml(urlName);
+    public websiteCatch(String htmlA){
+        html = htmlA;
+        //System.out.println(html);
     }
     
-    public void main(){
+    public void updateHtml(String htmlA){
+        html = htmlA;
+    }
+    
+    public String getStockPrice(){
         int start = html.indexOf(bdex)+bdex.length();
         int end = html.indexOf(adex);
-        String test = html.substring(start,end);
-        System.out.println(test);
+        String stock = html.substring(start,end);
+        return stock;
     }
     
     public String getHtml(String urlName){

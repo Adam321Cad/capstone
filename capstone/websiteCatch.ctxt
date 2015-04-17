@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=urlName
+comment0.params=htmlA
 comment0.target=websiteCatch(java.lang.String)
-comment1.params=
-comment1.target=void\ main()
-comment2.params=urlName
-comment2.target=java.lang.String\ getHtml(java.lang.String)
-numComments=3
+comment1.params=htmlA
+comment1.target=void\ updateHtml(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getStockPrice()
+comment3.params=urlName
+comment3.target=java.lang.String\ getHtml(java.lang.String)
+numComments=4
