@@ -11,3 +11,7 @@ DEPENDENCIES:
 HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
+
+
+
+http://stackoverflow.com/questions/29727229/how-can-i-store-the-input-from-a-text-box-in-a-string
