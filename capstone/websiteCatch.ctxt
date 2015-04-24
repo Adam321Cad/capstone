@@ -5,4 +5,5 @@ comment1.params=
 comment1.target=java.lang.String\ getStockPrice()
 comment2.params=urlName
 comment2.target=void\ getHtml(java.lang.String)
+comment2.text=\r\n\ \ \ \ public\ String\ getStockPrice(){\r\n\ \ \ \ int\ start;\r\n\ \ \ \ int\ end;\r\n\ \ \ \ String\ bla\ \=\ "class\=\\"time_rtq_ticker\\"><";\r\n\ \ \ \ int\ htmlid\ \=\ html.indexOf("class\=\\"time_rtq_ticker\\"><")+bla.length();\r\n\ \ \ \ //String\ stock\ \=\ html.substring(start,end);\r\n\ \ \ \ //int\ bla1\ \=\ html.indexOf(htmlid);\r\n\ \ \ \ String\ modHtml\ \=\ html.substring(htmlid,htmlid+100);\r\n\ \ \ \ start\ \=\ modHtml.indexOf(">");\r\n\ \ \ \ end\ \=\ modHtml.indexOf("<");\r\n\ \ \ \ String\ stock\ \=\ modHtml.substring(start+1,end);\r\n\ \ \ \ return\ stock;\r\n\ \ \ \ }\r\n
 numComments=3

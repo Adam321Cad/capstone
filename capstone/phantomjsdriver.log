@@ -1,0 +1,999 @@
+[INFO  - 2015-04-23T00:32:29.661Z] GhostDriver - Main - running on port 3234
+[INFO  - 2015-04-23T00:32:30.107Z] Session [3998fae0-e950-11e4-9740-b15d9bfea851] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0","webSecurityEnabled":true}
+[INFO  - 2015-04-23T00:32:30.107Z] Session [3998fae0-e950-11e4-9740-b15d9bfea851] - page.customHeaders:  - {}
+[INFO  - 2015-04-23T00:32:30.108Z] Session [3998fae0-e950-11e4-9740-b15d9bfea851] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"}
+[INFO  - 2015-04-23T00:32:30.109Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3998fae0-e950-11e4-9740-b15d9bfea851
+[ERROR - 2015-04-23T00:32:41.002Z] Session [3998fae0-e950-11e4-9740-b15d9bfea851] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-23T00:32:41.004Z] Session [3998fae0-e950-11e4-9740-b15d9bfea851] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=GOOG&fr=uh3_finance_web&uhb=uhb2:645)
+[INFO  - 2015-04-23T00:32:51.262Z] GhostDriver - Main - running on port 10293
+[INFO  - 2015-04-23T00:32:52.740Z] Session [47163250-e950-11e4-adbd-3dbecca39f94] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0","webSecurityEnabled":true}
+[INFO  - 2015-04-23T00:32:52.741Z] Session [47163250-e950-11e4-adbd-3dbecca39f94] - page.customHeaders:  - {}
+[INFO  - 2015-04-23T00:32:52.741Z] Session [47163250-e950-11e4-adbd-3dbecca39f94] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"}
+[INFO  - 2015-04-23T00:32:52.742Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 47163250-e950-11e4-adbd-3dbecca39f94
+[ERROR - 2015-04-23T00:33:33.902Z] Session [47163250-e950-11e4-adbd-3dbecca39f94] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-23T00:33:33.903Z] Session [47163250-e950-11e4-adbd-3dbecca39f94] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=GOOG&fr=uh3_finance_web&uhb=uhb2:656)
+[INFO  - 2015-04-23T00:33:38.339Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-23T00:38:29.306Z] GhostDriver - Main - running on port 22980
+[INFO  - 2015-04-23T00:38:29.444Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0","webSecurityEnabled":true}
+[INFO  - 2015-04-23T00:38:29.444Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.customHeaders:  - {}
+[INFO  - 2015-04-23T00:38:29.445Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"}
+[INFO  - 2015-04-23T00:38:29.445Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0fc77470-e951-11e4-a554-759b2eb53741
+[ERROR - 2015-04-23T00:38:39.899Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-23T00:38:39.899Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=GOOG%2C&fr=uh3_finance_web&uhb=uhb2:645)
+[INFO  - 2015-04-23T00:43:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:48:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:53:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:58:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:03:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:08:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:13:29.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:18:29.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:23:29.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:28:29.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:33:29.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:38:29.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:43:29.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-23T01:47:44.236Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'zk.bind(mj)')
+[ERROR - 2015-04-23T01:47:44.236Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - stack:
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:327)
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:825)
+[ERROR - 2015-04-23T01:47:44.237Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - msg: TypeError: 'undefined' is not a constructor (evaluating 'new swiffy.Stage(document.getElementById('swiffycontainer'),
+                    swiffyObject)')
+[ERROR - 2015-04-23T01:47:44.237Z] Session [0fc77470-e951-11e4-a554-759b2eb53741] - page.onError - stack:
+  (anonymous function) (http://s0.2mdn.net/3471833/1428090187995/15CSDB_03WBA_save-big_00229_300x250-gray.html:30)
+[INFO  - 2015-04-23T01:48:29.312Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:53:29.311Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:58:29.323Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:03:29.330Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:08:29.331Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.088Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+s function) (http://finance.yahoo.com/q?s=GOOG%2C&fr=uh3_finance_web&uhb=uhb2:645)
+[INFO  - 2015-04-23T00:43:51.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:48:51.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:53:51.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-23T00:57:04.937Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - msg: TypeError: '[object BlobConstructor]' is not a constructor (evaluating 'new Blob(["onmessage="+b],{type:"application/javascript"})')
+[ERROR - 2015-04-23T00:57:04.938Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - stack:
+  (anonymous function) (https://static.adsafeprotected.com//sca.js:12)
+  (anonymous function) (https://static.adsafeprotected.com//sca.js:13)
+  (anonymous function) (https://static.adsafeprotected.com//sca.js:14)
+[INFO  - 2015-04-23T00:58:51.396Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:03:51.397Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:08:51.398Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:13:51.397Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:18:51.399Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:23:51.399Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:28:51.399Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:33:51.401Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:38:51.403Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-23T01:40:36.185Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'zk.bind(mj)')
+[ERROR - 2015-04-23T01:40:36.185Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - stack:
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:327)
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:825)
+[ERROR - 2015-04-23T01:40:36.187Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - msg: TypeError: 'undefined' is not a constructor (evaluating 'new swiffy.Stage(document.getElementById('swiffycontainer'),
+                    swiffyObject)')
+[ERROR - 2015-04-23T01:40:36.187Z] Session [1d4ee510-e951-11e4-b1db-dde98eef68d7] - page.onError - stack:
+  (anonymous function) (http://s0.2mdn.[INFO  - 2015-04-23T01:45:25.041Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:50:25.041Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:55:25.052Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:00:25.052Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:05:25.054Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+eanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.148Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+e starting NOW
+[INFO  - 2015-04-23T01:00:43.794Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:05:43.794Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:10:43.794Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:15:43.794Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:20:43.794Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:25:43.804Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:30:43.804Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:35:43.804Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:40:43.804Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:45:43.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:50:43.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:55:43.808Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:00:43.811Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:05:43.811Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+onManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:56:00.290Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:01:00.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:06:00.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:11:00.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:16:00.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:21:00.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:26:00.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:31:00.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:36:00.320Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:41:00.325Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:46:00.325Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:51:00.338Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:56:00.350Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:01:00.351Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:06:00.352Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.043Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+erReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:26:47.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:31:47.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:36:47.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:41:47.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:46:47.161Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:51:47.161Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:56:47.164Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:01:47.162Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:06:47.162Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.026Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+encil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=GOOG&fr=uh3_finance_web&uhb=uhb2:644)
+[INFO  - 2015-04-23T00:42:20.432Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-23T00:44:02.673Z] GhostDriver - Main - running on port 27425
+[INFO  - 2015-04-23T00:44:03.392Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0","webSecurityEnabled":true}
+[INFO  - 2015-04-23T00:44:03.393Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.customHeaders:  - {}
+[INFO  - 2015-04-23T00:44:03.393Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"}
+[INFO  - 2015-04-23T00:44:03.393Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d6d3e030-e951-11e4-9eae-3d1f3541a2eb
+[ERROR - 2015-04-23T00:44:13.654Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-23T00:44:13.655Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=GOOG%2C&fr=uh3_finance_web&uhb=uhb2:656)
+[INFO  - 2015-04-23T00:49:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:54:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T00:59:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:04:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-23T01:06:50.401Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'zk.bind(mj)')
+[ERROR - 2015-04-23T01:06:50.402Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - stack:
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:327)
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:825)
+[ERROR - 2015-04-23T01:06:50.402Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - msg: TypeError: 'undefined' is not a constructor (evaluating 'new swiffy.Stage(document.getElementById('swiffycontainer'),
+                    swiffyObject)')
+[ERROR - 2015-04-23T01:06:50.402Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - stack:
+  (anonymous function) (http://s0.2mdn.net/3471833/1428090187995/15CSDB_03WBA_save-big_00229_300x250-gray.html:30)
+[INFO  - 2015-04-23T01:09:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:14:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:19:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:24:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:29:02.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:34:02.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-23T01:35:19.211Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2015-04-23T01:35:19.212Z] Session [d6d3e030-e951-11e4-9eae-3d1f3541a2eb] - page.onError - stack:
+
+[INFO  - 2015-04-23T01:39:02.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:44:02.700Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:49:02.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:54:02.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T01:59:02.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:04:02.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T02:09:02.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-23T03:10:18.105Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T00:39:36.886Z] GhostDriver - Main - running on port 19480
+[INFO  - 2015-04-24T00:39:37.664Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0","webSecurityEnabled":true}
+[INFO  - 2015-04-24T00:39:37.665Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T00:39:37.665Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"}
+[INFO  - 2015-04-24T00:39:37.665Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 62dae740-ea1a-11e4-8c78-edf3c9f1f021
+[ERROR - 2015-04-24T00:39:47.103Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T00:39:47.103Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=csco%2C&fr=uh3_finance_web&uhb=uhb2:638)
+[INFO  - 2015-04-24T00:44:36.881Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T00:49:36.882Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T00:54:36.886Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T00:59:36.886Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:04:36.887Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:09:36.894Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-24T01:12:51.193Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'zk.bind(mj)')
+[ERROR - 2015-04-24T01:12:51.194Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - stack:
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:327)
+  (anonymous function) (https://www.gstatic.com/swiffy/v7.1.1/runtime.js:825)
+[ERROR - 2015-04-24T01:12:51.194Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - msg: TypeError: 'undefined' is not a constructor (evaluating 'new swiffy.Stage(document.getElementById('swiffycontainer'),
+                    swiffyObject)')
+[ERROR - 2015-04-24T01:12:51.194Z] Session [62dae740-ea1a-11e4-8c78-edf3c9f1f021] - page.onError - stack:
+  (anonymous function) (http://s0.2mdn.net/3471833/1428090187995/15CSDB_03WBA_save-big_00229_300x250-gray.html:30)
+[INFO  - 2015-04-24T01:14:36.892Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:19:36.900Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:24:36.901Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:29:36.901Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:34:36.902Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:39:36.903Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:44:36.903Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:49:36.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:54:36.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:59:36.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:04:36.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:09:36.906Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:14:36.906Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:19:36.906Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:24:36.915Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:29:36.917Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:34:36.921Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:39:36.921Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:44:36.921Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:49:36.922Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:54:36.931Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:59:36.930Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:36.931Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:36.940Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:36.946Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:36.948Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ncil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:06:57.084Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:11:57.084Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:16:57.085Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:21:57.087Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:26:57.087Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:31:57.091Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:36:57.089Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:41:57.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:46:57.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:51:57.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:56:57.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:01:57.102Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:06:57.102Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:11:57.104Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:16:57.107Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:21:57.107Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:26:57.116Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:31:57.116Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:36:57.117Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:41:57.123Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:46:57.123Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:51:57.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:56:57.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:01:57.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:06:57.135Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:11:57.131Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:16:57.132Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:21:57.133Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=yhoo%2C&fr=uh3_finance_web&uhb=uhb2:600)
+[INFO  - 2015-04-24T01:09:56.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:14:56.904Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:19:56.914Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:24:56.914Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:29:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:34:56.917Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:39:56.917Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:44:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:49:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:54:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:59:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:04:56.919Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:09:56.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:14:56.922Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:19:56.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:24:56.932Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:29:56.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:34:56.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:39:56.935Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:44:56.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:49:56.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:54:56.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:59:56.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:56.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:56.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:56.954Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:56.954Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+FO  - 2015-04-24T01:07:52.854Z] Session [55445ea0-ea1e-11e4-80c5-bb293e78a6d7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:07:52.855Z] Session [55445ea0-ea1e-11e4-80c5-bb293e78a6d7] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:07:52.855Z] Session [55445ea0-ea1e-11e4-80c5-bb293e78a6d7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:07:52.856Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55445ea0-ea1e-11e4-80c5-bb293e78a6d7
+[ERROR - 2015-04-24T01:08:00.325Z] Session [55445ea0-ea1e-11e4-80c5-bb293e78a6d7] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:08:00.325Z] Session [55445ea0-ea1e-11e4-80c5-bb293e78a6d7] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[INFO  - 2015-04-24T01:12:52.236Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:17:52.236Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:22:52.236Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:27:52.237Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:32:52.238Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:37:52.238Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:42:52.238Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:47:52.238Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:52:52.239Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:57:52.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:02:52.239Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:07:52.242Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:12:52.239Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:17:52.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:22:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:27:52.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:32:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:37:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:42:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:47:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:52:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:57:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:02:52.241Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:07:52.243Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:12:52.243Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:17:52.244Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+6:01.269Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:21:01.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:26:01.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:31:01.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:36:01.270Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:41:01.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:46:01.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:51:01.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:56:01.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:01:01.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:06:01.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:11:01.272Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:16:01.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:21:01.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:26:01.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:31:01.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:36:01.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:41:01.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:46:01.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:51:01.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:56:01.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:01:01.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:06:01.282Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:11:01.284Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:16:01.284Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:21:01.284Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+9:49.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:24:49.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:29:49.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:34:49.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:39:49.624Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:44:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:49:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:54:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:59:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:04:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:09:49.624Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:14:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:19:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:24:49.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:29:49.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:34:49.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:39:49.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:44:49.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:49:49.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:54:49.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:59:49.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:49.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:49.628Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:49.630Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:49.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ncil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:25:49.641Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:30:49.642Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:35:49.642Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:40:49.643Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:45:49.643Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:50:49.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:55:49.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:00:49.645Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:05:49.646Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:10:49.646Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:15:49.646Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:20:49.648Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:25:49.647Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:30:49.648Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:35:49.649Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:40:49.649Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:45:49.651Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:50:49.651Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:55:49.652Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:00:49.652Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:05:49.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:10:49.654Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:15:49.654Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:20:49.655Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ncil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:27:11.216Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:32:11.217Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:37:11.216Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:42:11.217Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:47:11.217Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:52:11.218Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:57:11.217Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:02:11.218Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:07:11.218Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:12:11.218Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:17:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:22:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:27:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:32:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:37:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:42:11.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:47:11.220Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:52:11.220Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:57:11.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:02:11.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:07:11.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:12:11.222Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:17:11.225Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+cil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=yhoo%2C&fr=uh3_finance_web&uhb=uhb2:600)
+[INFO  - 2015-04-24T01:28:32.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:33:32.624Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:38:32.620Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:43:32.620Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:48:32.621Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:53:32.620Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:58:32.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:03:32.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:08:32.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:13:32.625Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:18:32.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:23:32.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:28:32.628Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:33:32.631Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:38:32.628Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:43:32.628Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:48:32.628Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:53:32.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:58:32.635Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:03:32.635Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:08:32.640Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:13:32.639Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:18:32.639Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+cil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[ERROR - 2015-04-24T01:26:20.242Z] Session [d7da0480-ea20-11e4-a189-6f8fd5dde6fe] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:26:20.243Z] Session [d7da0480-ea20-11e4-a189-6f8fd5dde6fe] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:26:25.543Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:26:57.923Z] GhostDriver - Main - running on port 15597
+[INFO  - 2015-04-24T01:26:58.126Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:26:58.127Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:26:58.127Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:26:58.127Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ffe665e0-ea20-11e4-b707-c570a6a30541
+[ERROR - 2015-04-24T01:27:06.125Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:27:06.126Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:27:07.809Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.Array.map(q.getDOMNodes(),function(a){return a.getAttribute("data-uh-test")})')
+[ERROR - 2015-04-24T01:27:07.810Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - stack:
+  (anonymous function) (http://l.yimg.com/zz/combo?kx/yucs/uh3/uh/1078/js/uh-min.js&kx/yucs/uh3/uh/1078/js/gallery-jsonp-min.js&kx/yucs/uh3/uh/1134/js/menu_utils_v3-min.js&kx/yucs/uh3/uh/1078/js/localeDateFormat-min.js&kx/yucs/uh3/uh/1078/js/timestamp_library_v2-min.js&kx/yucs/uh3/uh/1104/js/logo_debug-min.js&kx/yucs/uh3/switch-theme/6/js/switch_theme-min.js&kx/yucs/uhc/meta/66/js/meta-min.js&kx/yucs/uh_common/beacon/18/js/beacon-min.js&kx/yucs/uh2/comet/84/js/cometd-yui3-min.js&kx/yucs/uh2/comet/84/js/conn-min.js&kx/yucs/uh2/comet/84/js/dark-test-min.js&kx/yucs/uh3/disclaimer/384/js/disclaimer_seed-min.js&kx/yucs/uh3/top-bar/321/js/top_bar_v3-min.js&kx/yucs/uh3/search/598/js/search-min.js&kx/yucs/uh3/search/611/js/search_plugin-min.js&kx/yucs/uh2/common/145/js/jsonp-super-cached-min.js&kx/yucs/uh3/avatar/31/js/avatar-min.js&kx/yucs/uh3/mail-link/96/js/mailcount_ssl-min.js&kx/yucs/uh3/help/83/js/help_menu_v3-min.js&kx/yucs/uhc/rapid/41/js/uh_rapid-min.js&kx/yucs/uh3/get-the-app/148/js/inputMaskClient-min.js&kx/yucs/uh3/get-the-app/160/js/get_the_app-min.js&kx/yucs/uh3/location/10/js/uh_locdrop-min.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  c (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+[ERROR - 2015-04-24T01:27:13.774Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:27:13.775Z] Session [ffe665e0-ea20-11e4-b707-c570a6a30541] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[INFO  - 2015-04-24T01:31:57.920Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:36:57.922Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:41:57.930Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:46:57.932Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:51:57.932Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:56:57.933Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:01:57.933Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:06:57.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:11:57.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:16:57.943Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:21:57.945Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:26:57.944Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:31:57.944Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:36:57.944Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:41:57.945Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:46:57.950Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:51:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:56:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:01:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:06:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:11:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:16:57.951Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:21:57.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+cil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[ERROR - 2015-04-24T01:28:41.971Z] Session [305c4050-ea21-11e4-8d23-097872e17139] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:28:41.971Z] Session [305c4050-ea21-11e4-8d23-097872e17139] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:33:18.264Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:38:18.264Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:43:18.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:48:18.273Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:53:18.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:58:18.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:03:18.278Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:08:18.278Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:13:18.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:18:18.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:23:18.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:28:18.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:33:18.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:38:18.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:43:18.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:48:18.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:53:18.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:58:18.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:03:18.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:08:18.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:13:18.296Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:18:18.299Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[INFO  - 2015-04-24T01:37:08.991Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:42:08.991Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:47:08.991Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:52:08.991Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:57:08.994Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:02:08.994Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:07:08.995Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:12:08.997Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:17:08.997Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:22:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:27:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:32:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:37:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:42:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:47:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:52:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:57:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:02:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:07:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:12:08.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:17:08.999Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+urce/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:38:43.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:43:43.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:48:43.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:53:43.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:58:43.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:03:43.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:08:43.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:13:43.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:18:43.722Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:23:43.722Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:28:43.723Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:33:43.723Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:38:43.723Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:43:43.724Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:48:43.724Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:53:43.725Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:58:43.725Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:03:43.725Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:08:43.725Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:13:43.725Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:18:43.726Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+urce/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:36:46.187Z] Session [53db0dd0-ea22-11e4-aab5-3146fdf266c6] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:36:46.188Z] Session [53db0dd0-ea22-11e4-aab5-3146fdf266c6] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[INFO  - 2015-04-24T01:36:48.235Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:37:23.523Z] GhostDriver - Main - running on port 13098
+[INFO  - 2015-04-24T01:37:23.694Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:37:23.694Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:37:23.694Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:37:23.695Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 74c4a6f0-ea22-11e4-ba79-8b4774789add
+[ERROR - 2015-04-24T01:37:32.425Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:37:32.427Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:37:41.356Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:37:41.356Z] Session [74c4a6f0-ea22-11e4-ba79-8b4774789add] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert_gs_ctrl1&fr=&type=2button&s=goog%2C:600)
+[INFO  - 2015-04-24T01:37:43.640Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:38:02.288Z] GhostDriver - Main - running on port 23222
+[INFO  - 2015-04-24T01:38:02.440Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:38:02.440Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:38:02.440Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:38:02.441Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8bdc8470-ea22-11e4-816c-69cc1599a8d6
+[ERROR - 2015-04-24T01:38:11.118Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:38:11.119Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[ERROR - 2015-04-24T01:38:13.458Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'r.createElement.bind(null,x)')
+[ERROR - 2015-04-24T01:38:13.458Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - stack:
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  k (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  i (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  c (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+[ERROR - 2015-04-24T01:38:20.228Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:38:20.228Z] Session [8bdc8470-ea22-11e4-816c-69cc1599a8d6] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:38:22.328Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:38:50.338Z] GhostDriver - Main - running on port 16597
+[INFO  - 2015-04-24T01:38:50.489Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:38:50.490Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:38:50.490Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:38:50.491Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a88084a0-ea22-11e4-ad3c-c9f3d745b9be
+[ERROR - 2015-04-24T01:38:58.984Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:38:58.985Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[ERROR - 2015-04-24T01:39:00.987Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'r.createElement.bind(null,x)')
+[ERROR - 2015-04-24T01:39:00.988Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - stack:
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  k (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  i (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  g (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  c (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+  (anonymous function) (http://l.yimg.com/zz/combo?yui:3.16.0/build/yui/yui-min.js&os/mit/media/p/common/rmp-min-56d3a2e.js&aj/lh-0.9.js&os/mit/media/m/base/viewport-loader-min-649ba6f.js&ss/rapid-3.23.1.js&os/mit/td/asset-loader-min-4717530e.js&os/mit/media/p/content/react-with-addons-min-098f019.js:128)
+[ERROR - 2015-04-24T01:39:07.791Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:39:07.792Z] Session [a88084a0-ea22-11e4-ad3c-c9f3d745b9be] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:43:50.332Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:48:50.339Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:53:50.341Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:58:50.340Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:03:50.343Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:08:50.345Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:13:50.344Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:18:50.350Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:23:50.351Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:28:50.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:33:50.355Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:38:50.410Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:43:50.406Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:48:50.407Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:53:50.407Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:58:50.415Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:03:50.416Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:08:50.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:13:50.416Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:18:50.416Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+oltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[INFO  - 2015-04-24T01:49:05.558Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:54:05.556Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T01:59:05.567Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:04:05.568Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:09:05.568Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:14:05.570Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:19:05.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:24:05.585Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:29:05.588Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:34:05.600Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:39:05.602Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:44:05.604Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:49:05.617Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:54:05.617Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:59:05.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:05.619Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:05.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:05.631Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:05.631Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+eqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:35:47.712Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:40:47.712Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:45:47.713Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:50:47.713Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:55:47.713Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:00:47.714Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:05:47.714Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:10:47.714Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:15:47.715Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:20:47.715Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:36:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:41:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:46:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:51:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:56:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:01:44.936Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:06:44.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:11:44.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:16:44.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:21:44.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+oltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:47:59.102Z] Session [dfd8f490-ea23-11e4-8a09-73161a6a3ec0] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:47:59.102Z] Session [dfd8f490-ea23-11e4-8a09-73161a6a3ec0] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert_gs_ctrl1&fr=&type=2button&s=goog%2C:600)
+[INFO  - 2015-04-24T01:48:32.710Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:49:01.421Z] GhostDriver - Main - running on port 14023
+[INFO  - 2015-04-24T01:49:02.565Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:49:02.566Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:49:02.566Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:49:02.566Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1553c050-ea24-11e4-baab-0196fe1e4ac5
+[ERROR - 2015-04-24T01:49:13.931Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:49:13.934Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[ERROR - 2015-04-24T01:49:39.653Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:49:39.653Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:49:57.417Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:49:57.418Z] Session [1553c050-ea24-11e4-baab-0196fe1e4ac5] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[INFO  - 2015-04-24T01:50:13.917Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T01:51:31.143Z] GhostDriver - Main - running on port 32599
+[INFO  - 2015-04-24T01:51:32.345Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T01:51:32.346Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T01:51:32.346Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T01:51:32.348Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6e9a84a0-ea24-11e4-9a13-9d98b27161ca
+[ERROR - 2015-04-24T01:51:42.083Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:51:42.093Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=csco%2C:594)
+[ERROR - 2015-04-24T01:51:43.436Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'a.Array.map(q.getDOMNodes(),function(a){return a.getAttribute("data-uh-test")})')
+[ERROR - 2015-04-24T01:51:43.438Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - stack:
+  (anonymous function) (http://l.yimg.com/zz/combo?kx/yucs/uh3/uh/1078/js/uh-min.js&kx/yucs/uh3/uh/1078/js/gallery-jsonp-min.js&kx/yucs/uh3/uh/1134/js/menu_utils_v3-min.js&kx/yucs/uh3/uh/1078/js/localeDateFormat-min.js&kx/yucs/uh3/uh/1078/js/timestamp_library_v2-min.js&kx/yucs/uh3/uh/1104/js/logo_debug-min.js&kx/yucs/uh3/switch-theme/6/js/switch_theme-min.js&kx/yucs/uhc/meta/66/js/meta-min.js&kx/yucs/uh_common/beacon/18/js/beacon-min.js&kx/yucs/uh2/comet/84/js/cometd-yui3-min.js&kx/yucs/uh2/comet/84/js/conn-min.js&kx/yucs/uh2/comet/84/js/dark-test-min.js&kx/yucs/uh3/disclaimer/384/js/disclaimer_seed-min.js&kx/yucs/uh3/top-bar/321/js/top_bar_v3-min.js&kx/yucs/uh3/search/598/js/search-min.js&kx/yucs/uh3/search/611/js/search_plugin-min.js&kx/yucs/uh2/common/145/js/jsonp-super-cached-min.js&kx/yucs/uh3/avatar/31/js/avatar-min.js&kx/yucs/uh3/mail-link/96/js/mailcount_ssl-min.js&kx/yucs/uh3/help/83/js/help_menu_v3-min.js&kx/yucs/uhc/rapid/41/js/uh_rapid-min.js&kx/yucs/uh3/get-the-app/148/js/inputMaskClient-min.js&kx/yucs/uh3/get-the-app/160/js/get_the_app-min.js&kx/yucs/uh3/location/10/js/uh_locdrop-min.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:5)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  (anonymous function) (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+  c (http://l1.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356973/2.0.0/mini/yui-min-3.9.1.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356973/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js:3)
+[ERROR - 2015-04-24T01:51:51.756Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:51:51.757Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=goog%2C:600)
+[ERROR - 2015-04-24T01:52:01.885Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T01:52:01.885Z] Session [6e9a84a0-ea24-11e4-9a13-9d98b27161ca] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[INFO  - 2015-04-24T01:52:04.031Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T02:01:39.919Z] GhostDriver - Main - running on port 48522
+[INFO  - 2015-04-24T02:01:40.016Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T02:01:40.016Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T02:01:40.016Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T02:01:40.017Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d8cd9a00-ea25-11e4-b24d-11b38531c044
+[ERROR - 2015-04-24T02:01:48.722Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T02:01:48.723Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?s=goog%2C&fr=uh3_finance_web&uhb=uhb2:600)
+[ERROR - 2015-04-24T02:01:59.286Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.onError - msg: SECURITY_ERR: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+[ERROR - 2015-04-24T02:01:59.287Z] Session [d8cd9a00-ea25-11e4-b24d-11b38531c044] - page.onError - stack:
+  M (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  D (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  R (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:7)
+  (anonymous function) (http://l.yimg.com/zz/combo?os/mit/td/stencil-0.1.150/stencil/stencil-min.js&os/mit/td/mjata-0.4.2/mjata-util/mjata-util-min.js&os/mit/td/stencil-0.1.150/stencil-source/stencil-source-min.js&os/mit/td/stencil-0.1.150/stencil-tooltip/stencil-tooltip-min.js&os/mit/td/stencil-0.1.150/stencil-imageloader/stencil-imageloader-min.js&ss/rapid-3.18.3.js:28)
+  (anonymous function) (http://finance.yahoo.com/q?uhb=uh3_finance_vert&fr=&type=2button&s=yhoo%2C:600)
+[INFO  - 2015-04-24T02:06:39.914Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:11:39.916Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:16:39.921Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:21:39.933Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:26:39.933Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:31:39.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:36:39.933Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:41:39.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:46:39.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:51:39.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:56:39.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:01:39.938Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:06:39.946Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:11:39.946Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:16:39.949Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:21:39.949Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+Hand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:44:05.117Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:49:05.130Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:54:05.131Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T02:59:05.132Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:05.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:05.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:05.150Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:05.150Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+rm":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T02:52:28.424Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f1cb9870-ea2c-11e4-8aa9-d5ae632beac8
+[INFO  - 2015-04-24T02:57:27.111Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:02:27.109Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:07:27.120Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:12:27.132Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:17:27.133Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+- Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T02:54:30.670Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3aa865a0-ea2d-11e4-8469-a5f1b18a5a7c
+[INFO  - 2015-04-24T02:59:29.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:04:29.477Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:09:29.477Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:14:29.477Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:19:29.478Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-24T03:20:18.173Z] GhostDriver - Main - running on port 40416
+[INFO  - 2015-04-24T03:20:18.388Z] Session [d52c5660-ea30-11e4-883f-3bca818cc4e1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T03:20:18.388Z] Session [d52c5660-ea30-11e4-883f-3bca818cc4e1] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T03:20:18.389Z] Session [d52c5660-ea30-11e4-883f-3bca818cc4e1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T03:20:18.389Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d52c5660-ea30-11e4-883f-3bca818cc4e1
+[INFO  - 2015-04-24T03:20:26.987Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T12:00:19.190Z] GhostDriver - Main - running on port 33152
+[INFO  - 2015-04-24T12:00:19.885Z] Session [7ab87990-ea79-11e4-ad0e-8159ccd92e13] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T12:00:19.885Z] Session [7ab87990-ea79-11e4-ad0e-8159ccd92e13] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T12:00:19.885Z] Session [7ab87990-ea79-11e4-ad0e-8159ccd92e13] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T12:00:19.885Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7ab87990-ea79-11e4-ad0e-8159ccd92e13
+[INFO  - 2015-04-24T12:00:24.622Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T12:02:05.634Z] GhostDriver - Main - running on port 28066
+[INFO  - 2015-04-24T12:02:06.055Z] Session [b9ff5ba0-ea79-11e4-82ab-f336b02efa6c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T12:02:06.056Z] Session [b9ff5ba0-ea79-11e4-82ab-f336b02efa6c] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T12:02:06.056Z] Session [b9ff5ba0-ea79-11e4-82ab-f336b02efa6c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T12:02:06.056Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b9ff5ba0-ea79-11e4-82ab-f336b02efa6c
+[INFO  - 2015-04-24T12:02:09.297Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T12:08:28.095Z] GhostDriver - Main - running on port 30976
+[INFO  - 2015-04-24T12:08:29.474Z] Session [9e889b60-ea7a-11e4-b469-014819841aa4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T12:08:29.475Z] Session [9e889b60-ea7a-11e4-b469-014819841aa4] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T12:08:29.475Z] Session [9e889b60-ea7a-11e4-b469-014819841aa4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T12:08:29.475Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9e889b60-ea7a-11e4-b469-014819841aa4
+[INFO  - 2015-04-24T12:08:38.912Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T12:24:26.816Z] GhostDriver - Main - running on port 44184
+[INFO  - 2015-04-24T12:24:27.543Z] Session [d997b540-ea7c-11e4-bf41-57293da4a997] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T12:24:27.543Z] Session [d997b540-ea7c-11e4-bf41-57293da4a997] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T12:24:27.543Z] Session [d997b540-ea7c-11e4-bf41-57293da4a997] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T12:24:27.543Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d997b540-ea7c-11e4-bf41-57293da4a997
+[INFO  - 2015-04-24T12:24:35.742Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T12:24:55.872Z] GhostDriver - Main - running on port 1396
+[INFO  - 2015-04-24T12:24:56.495Z] Session [ead80f30-ea7c-11e4-bfa3-8f0a299485f4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T12:24:56.495Z] Session [ead80f30-ea7c-11e4-bfa3-8f0a299485f4] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T12:24:56.496Z] Session [ead80f30-ea7c-11e4-bfa3-8f0a299485f4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T12:24:56.496Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ead80f30-ea7c-11e4-bfa3-8f0a299485f4
+[INFO  - 2015-04-24T12:24:58.386Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-04-24T15:45:40.596Z] GhostDriver - Main - running on port 4894
+[INFO  - 2015-04-24T15:45:41.805Z] Session [f6685a00-ea98-11e4-afcb-bbdf950ba255] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-24T15:45:41.805Z] Session [f6685a00-ea98-11e4-afcb-bbdf950ba255] - page.customHeaders:  - {}
+[INFO  - 2015-04-24T15:45:41.805Z] Session [f6685a00-ea98-11e4-afcb-bbdf950ba255] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-24T15:45:41.806Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f6685a00-ea98-11e4-afcb-bbdf950ba255
+[INFO  - 2015-04-24T15:45:43.207Z] ShutdownReqHand - _handle - About to shutdown

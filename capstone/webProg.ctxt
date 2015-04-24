@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=urlName
+comment0.target=webProg(java.lang.String)
+comment1.params=stock
+comment1.target=void\ action3(java.util.ArrayList)
+comment2.params=s
+comment2.target=void\ net(java.lang.String)
+comment3.params=stock
+comment3.target=void\ action2(java.util.ArrayList)
+comment3.text=\r\n\ \ \ \ public\ void\ net(String\ s){\r\n\ \ \ \ websiteCatch\ w\ \=\ new\ websiteCatch();\r\n\ \ \ \ driver.get(baseUrl\ +\ "/;_ylt\=A0LEVi5h.DZVElcA1tsnnIlQ;_ylu\=X3oDMTEzMW0yNTZkBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1lIUzAwMV8x");\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).click();\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).clear();\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).sendKeys(s+",");\r\n\ \ \ \ driver.findElement(By.id("UHSearchProperty")).click();\r\n\r\n\ \ \ \ w.getHtml(driver.getCurrentUrl());\r\n\ \ \ \ System.out.println(w.getStockPrice());\r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=void\ action()
+comment5.params=
+comment5.target=void\ tearDown()
+numComments=6

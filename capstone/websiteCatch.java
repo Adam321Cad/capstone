@@ -14,27 +14,43 @@ public class websiteCatch{
     private String adex = "</span></span> <span class=";
     //public websiteCatch(String htmlA){
     //    html = htmlA;
-        //System.out.println(html);
-   // }
-    
+    //System.out.println(html);
+    // }
+
     public void updateHtml(String htmlA){
         html = htmlA;
     }
-    
+
     public String getStockPrice(){
         int start;
         int end;
-        String bla = "class=\"time_rtq_ticker\"><";
-        int htmlid = html.indexOf("class=\"time_rtq_ticker\"><")+bla.length();
+        String bla = "</font></td> 				<td bgcolor=\"#FFFFFF\" align=\"center\"><font color=\"black\"><b";
+        int htmlid = html.indexOf(bla)+bla.length();
         //String stock = html.substring(start,end);
         //int bla1 = html.indexOf(htmlid);
+        System.out.println(html);
         String modHtml = html.substring(htmlid,htmlid+100);
         start = modHtml.indexOf(">");
         end = modHtml.indexOf("<");
         String stock = modHtml.substring(start+1,end);
         return stock;
     }
-    
+
+    /*
+    public String getStockPrice(){
+    int start;
+    int end;
+    String bla = "class=\"time_rtq_ticker\"><";
+    int htmlid = html.indexOf("class=\"time_rtq_ticker\"><")+bla.length();
+    //String stock = html.substring(start,end);
+    //int bla1 = html.indexOf(htmlid);
+    String modHtml = html.substring(htmlid,htmlid+100);
+    start = modHtml.indexOf(">");
+    end = modHtml.indexOf("<");
+    String stock = modHtml.substring(start+1,end);
+    return stock;
+    }
+     */
     public void getHtml(String urlName){
         html = "";
         try{
@@ -51,6 +67,5 @@ public class websiteCatch{
             System.out.println("welp");
         }
     }
-        
-    
+
 }
