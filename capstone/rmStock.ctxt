@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=rmStock(java.util.ArrayList)
+comment0.text=\r\n\ just\ gets\ all\ of\ the\ stocks\ here\ so\ that\ this\ class\ can\ remove\ them\r\n
+comment1.params=
+comment1.target=void\ removeStock()
+comment1.text=\r\n\ sets\ up\ the\ gui\ that\ is\ used\ to\ make\ an\ ArrayList\ of\ stocks\ that\ need\ to\ be\ removed.\r\n\ \r\n\ @param\ none\r\n\ @return\ none\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=
+comment4.target=java.util.ArrayList\ getrmStock()
+comment4.text=\r\n\ returns\ the\ modified\ arraylist\ of\ stocks\ after\ removing\ the\ stocks\ selected\ by\ the\ removeStock()\ method\r\n\ \r\n\ @param\ none\r\n\ @return\ ArrayList<String>\ returns\ the\ modified\ arraylist\ of\ stocks\ after\ removing\ all\ of\ stocks\ that\ are\ also\ in\ remStock\ arraylist\r\n
+numComments=5

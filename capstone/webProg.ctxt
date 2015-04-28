@@ -1,15 +1,14 @@
 #BlueJ class context
 comment0.params=urlName
 comment0.target=webProg(java.lang.String)
+comment0.text=\r\n\ sets\ up\ the\ webdriver\ so\ that\ i\ can\ begin\ scraping\r\n
 comment1.params=stock
-comment1.target=void\ action3(java.util.ArrayList)
+comment1.target=java.util.ArrayList\ action3(java.util.ArrayList)
+comment1.text=\r\n\ This\ loops\ though\ every\ stock\ and\ sends\ a\ string\ to\ net\ to\ get\ the\ stock\ price\ of\ the\ ticker\r\n\ \r\n\ @param\ ArrayList<string>\ this\ will\ take\ an\ array\ list\ of\ ticker\ symbols\ and\ get\ yu\ the\ stock\ price\r\n\ @return\ \ \ \ \ it\ will\ return\ the\ stock\ price\ of\ every\ ticker\ symbol\ typed\ in\r\n
 comment2.params=s
-comment2.target=void\ net(java.lang.String)
-comment3.params=stock
-comment3.target=void\ action2(java.util.ArrayList)
-comment3.text=\r\n\ \ \ \ public\ void\ net(String\ s){\r\n\ \ \ \ websiteCatch\ w\ \=\ new\ websiteCatch();\r\n\ \ \ \ driver.get(baseUrl\ +\ "/;_ylt\=A0LEVi5h.DZVElcA1tsnnIlQ;_ylu\=X3oDMTEzMW0yNTZkBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1lIUzAwMV8x");\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).click();\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).clear();\r\n\ \ \ \ driver.findElement(By.id("UHSearchBox")).sendKeys(s+",");\r\n\ \ \ \ driver.findElement(By.id("UHSearchProperty")).click();\r\n\r\n\ \ \ \ w.getHtml(driver.getCurrentUrl());\r\n\ \ \ \ System.out.println(w.getStockPrice());\r\n\ \ \ \ }\r\n
-comment4.params=
-comment4.target=void\ action()
-comment5.params=
-comment5.target=void\ tearDown()
-numComments=6
+comment2.target=java.lang.String\ net(java.lang.String)
+comment2.text=\r\n\ pulls\ the\ stock\ price\ based\ on\ the\ ticker\ symbol\ string\ passed\ in\r\n\ \r\n\ @param\ \ String\ this\ needs\ a\ ticker\ symbol\r\n\ @return\ \ String\ \ \ returns\ the\ stock\ price\ as\ a\ string\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ this\ closes\ the\ driver\ and\ quits\ all\ of\ the\ webscraper\ procces.\ It\ closes\ the\ firefox\ browser\ as\ well\ if\ it\ is\ used.\r\n\ \r\n\ @param\ \ none\r\n\ @return\ \ none\ \r\n
+numComments=4

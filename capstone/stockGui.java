@@ -11,15 +11,35 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.util.ArrayList;
 
+
+/**
+ * this class makes a gui and adds strings to a list of stocks
+ * 
+ * @author (Adam Arato) 
+ * @version (April 24)
+ */
 public class stockGui extends JFrame
 {
     ArrayList<String> stock = new ArrayList<String>();
+        /**
+     * gets a list of existing stocks to add to that list
+     */
+    public stockGui(ArrayList<String> s){
+        stock = s;
+    }
+    
+        /**
+     * pulls up a gui that can be used to add stock values to the stock array list
+     * 
+     * @param none
+     * @return  none 
+     */
     public void setStock(){
         JFrame frame;
         JPanel panel;
         JButton buttonA, buttonB;
         JLabel label;
-        final JTextField tf;
+        JTextField tf;
 
         //ArrayList<String> tempStock = new Arraylist();
 
@@ -43,6 +63,7 @@ public class stockGui extends JFrame
         startButton.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e){
                     stock.add(tf.getText());
+                    tf.setText("");
                 }
             });
 
@@ -51,6 +72,8 @@ public class stockGui extends JFrame
         menu.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
                     setVisible(false);
+                    Gui g = new Gui(getStock());
+                    g.menu();
                 }
             });
 
@@ -61,11 +84,13 @@ public class stockGui extends JFrame
         panel.add(startButton);
         panel.add(menu);
     }
-    
-    public void visibleStock(boolean c){
-        setVisible(c);
-    }
 
+    /**
+     * This is the part that actually returns the modified stock list.
+     * 
+     * @param none
+     * @return ArrayList<String> the modified ArrayList of strings with the new stocks 
+     */
     public String[] addStock(){
         //setStock();
         if(stock.size() !=0){
@@ -81,6 +106,12 @@ public class stockGui extends JFrame
         }
     }
     
+        /**
+     * Symply used to get the stock arraylist
+     * 
+     * @param  none
+     * @return ArrayList<String> returns the arraylist of stocks 
+     */
     public ArrayList<String> getStock(){
         return stock;
     }

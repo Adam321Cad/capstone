@@ -1,14 +1,18 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ setStock()
-comment1.params=e
-comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment0.params=s
+comment0.target=stockGui(java.util.ArrayList)
+comment0.text=\r\n\ gets\ a\ list\ of\ existing\ stocks\ to\ add\ to\ that\ list\r\n
+comment1.params=
+comment1.target=void\ setStock()
+comment1.text=\r\n\ pulls\ up\ a\ gui\ that\ can\ be\ used\ to\ add\ stock\ values\ to\ the\ stock\ array\ list\r\n\ \r\n\ @param\ none\r\n\ @return\ \ none\ \r\n
 comment2.params=e
 comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
-comment3.params=c
-comment3.target=void\ visibleStock(boolean)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
 comment4.params=
 comment4.target=java.lang.String[]\ addStock()
+comment4.text=\r\n\ This\ is\ the\ part\ that\ actually\ returns\ the\ modified\ stock\ list.\r\n\ \r\n\ @param\ none\r\n\ @return\ ArrayList<String>\ the\ modified\ ArrayList\ of\ strings\ with\ the\ new\ stocks\ \r\n
 comment5.params=
 comment5.target=java.util.ArrayList\ getStock()
+comment5.text=\r\n\ Symply\ used\ to\ get\ the\ stock\ arraylist\r\n\ \r\n\ @param\ \ none\r\n\ @return\ ArrayList<String>\ returns\ the\ arraylist\ of\ stocks\ \r\n
 numComments=6

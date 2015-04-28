@@ -13,10 +13,10 @@ import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import java.util.ArrayList;
 /**
- * Write a description of class webdriver here.
+ * this class does the actual webscraping. You can have a visible browser or a invsible browser if you have phantomjs
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Adam Arato) 
+ * @version (April 24)
  */
 public class webProg
 {
@@ -29,8 +29,11 @@ public class webProg
     private String phantomFile = "phantomjs.exe";               // location of PhantomJS executable file
     private String screenshot1 = "C:\\tmp\\screenshot1.png";        // Location of 1st screenshot for phantomjs debugging purposes
     private String screenshot2 = "C:\\tmp\\screenshot2.png";    
-    //private String baseUrl;
-    final private boolean visible = true;
+    //this can make firefox visible or invisible
+    final private boolean visible = false;
+        /**
+     * sets up the webdriver so that i can begin scraping
+     */
     public webProg(String urlName){
         url = urlName;
         if (visible) {
@@ -40,15 +43,7 @@ public class webProg
             String userAgent = "Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"; // Faking User Agent
             System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
             System.setProperty("phantomjs.page.settings.userAgent", userAgent);
-            //DesiredCapabilities cap = DesiredCapabilities.phantomjs();           // Setting PhantomJS Capabilities
-            //cap.setJavascriptEnabled(true);
-            //String[] phantomArgs = new  String[] {
-            //      "--webdriver-loglevel=INFO"  //Logging off
-            //};
-            //cap.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, phantomArgs);
-            //cap.setCapability("phantomjs.page.settings.userAgent",userAgent); 
-
-            //driver = new PhantomJSDriver(cap);
+            
             driver = new PhantomJSDriver();
             //Dimension arg0 = new Dimension(1300, 1100);
             //driver.manage().window().setSize(arg0);
@@ -63,27 +58,42 @@ public class webProg
     //  public void main(){
 
     //}
-    public void action3(ArrayList<String> stock){
+    
+        /**
+     * This loops though every stock and sends a string to net to get the stock price of the ticker
+     * 
+     * @param ArrayList<string> this will take an array list of ticker symbols and get yu the stock price
+     * @return     it will return the stock price of every ticker symbol typed in
+     */
+    public ArrayList<String> action3(ArrayList<String> stock){
         int bla = stock.size();
         boolean first = true;
+        ArrayList<String> l = new ArrayList<String>();
         for(int i = 0; i<stock.size();i++){
             String s = stock.get(i);
             s.toUpperCase();
-            this.net(s);
+            l.add(this.net(s));
             first =false;
 
         }
         this.tearDown();
+        return l;
     }
 
-    public void net(String s){
+        /**
+     * pulls the stock price based on the ticker symbol string passed in
+     * 
+     * @param  String this needs a ticker symbol
+     * @return  String   returns the stock price as a string
+     */
+    public String net(String s){
         driver.get(baseUrl + "/");
         driver.findElement(By.name("ticker")).clear();
         //driver.findElement(By.xpath("/html/body/center/center/table[1]/tbody/tr[3]/td/table/tbody/tr/td[3]/span/input")).sendKeys("goog");
         driver.findElement(By.name("ticker")).sendKeys(s);
         driver.findElement(By.xpath("/html/body/center/center/table[1]/tbody/tr[3]/td/table/tbody/tr/td[5]/input")).click();
         String value = driver.findElement(By.xpath("/html/body/center/p[1]/table/tbody/tr/td/p[1]/table[2]/tbody/tr[2]/td[3]/font/b")).getText();
-        System.out.println(value);
+        return(s+" "+value+", ");
         /*
         websiteCatch w = new websiteCatch();
         w.getHtml(driver.getCurrentUrl());
@@ -92,68 +102,12 @@ public class webProg
         */
     }
 
-    /*
-    public void net(String s){
-    websiteCatch w = new websiteCatch();
-    driver.get(baseUrl + "/;_ylt=A0LEVi5h.DZVElcA1tsnnIlQ;_ylu=X3oDMTEzMW0yNTZkBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1lIUzAwMV8x");
-    driver.findElement(By.id("UHSearchBox")).click();
-    driver.findElement(By.id("UHSearchBox")).clear();
-    driver.findElement(By.id("UHSearchBox")).sendKeys(s+",");
-    driver.findElement(By.id("UHSearchProperty")).click();
-
-    w.getHtml(driver.getCurrentUrl());
-    System.out.println(w.getStockPrice());
-    }
+        /**
+     * this closes the driver and quits all of the webscraper procces. It closes the firefox browser as well if it is used.
+     * 
+     * @param  none
+     * @return  none 
      */
-    public void action2(ArrayList<String> stock){
-        int bla = stock.size();
-        boolean first = true;
-        for(int i = 0; i<stock.size();i++){
-            String s = stock.get(i);
-            s.toUpperCase();
-            websiteCatch w = new websiteCatch();
-            if(first == true){
-                driver.get(baseUrl + "/;_ylt=A0LEVi5h.DZVElcA1tsnnIlQ;_ylu=X3oDMTEzMW0yNTZkBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1lIUzAwMV8x");
-                driver.findElement(By.id("UHSearchBox")).click();
-                driver.findElement(By.id("UHSearchBox")).clear();
-                driver.findElement(By.id("UHSearchBox")).sendKeys(s+",");
-                driver.findElement(By.id("UHSearchProperty")).click();
-
-                w.getHtml(driver.getCurrentUrl());
-                System.out.println(w.getStockPrice());
-            }else{
-                driver.findElement(By.id("mnp-search_box")).clear();
-                driver.findElement(By.id("mnp-search_box")).sendKeys(s+",");
-                driver.findElement(By.id("yucs-sprop_button")).click();
-                w.getHtml(driver.getCurrentUrl());
-                System.out.println(w.getStockPrice());
-
-            }
-        }
-        this.tearDown();
-    }
-
-    public void action(){
-        driver.get(baseUrl + "/;_ylt=A0LEVi5h.DZVElcA1tsnnIlQ;_ylu=X3oDMTEzMW0yNTZkBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1lIUzAwMV8x");
-        driver.findElement(By.id("UHSearchBox")).click();
-        driver.findElement(By.id("UHSearchBox")).clear();
-        driver.findElement(By.id("UHSearchBox")).sendKeys("GOOG,");
-        driver.findElement(By.id("UHSearchProperty")).click();
-
-        websiteCatch w = new websiteCatch();
-        w.getHtml(driver.getCurrentUrl());
-        System.out.println(w.getStockPrice());
-
-        driver.findElement(By.id("mnp-search_box")).clear();
-        driver.findElement(By.id("mnp-search_box")).sendKeys("YHOO,");
-        driver.findElement(By.id("yucs-sprop_button")).click();
-        w.getHtml(driver.getCurrentUrl());
-        System.out.println(w.getStockPrice());
-        //driver.findElement(By.id("yfs_l84_goog")).click();
-        //String StockPrice = driver.findElement(By.id("yfs_l84_goog")).getText();
-        this.tearDown();
-    }
-
     public void tearDown(){
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
